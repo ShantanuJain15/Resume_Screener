@@ -1,7 +1,9 @@
 nltk
+matplotlib
 sklearn
 Flask
 Flask-Cors
 pdfminer.six
 pandas
+PyPDF2
 -e.

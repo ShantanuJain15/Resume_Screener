@@ -1,5 +1,5 @@
 import sys
-from logger import logging
+from src.Resume_Screener.logger import logging
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
     file_name=exc_tb.tb_frame.f_code.co_filename
@@ -16,7 +16,8 @@ class CustomException(Exception):
     
     def __str__(self) :
         return self.error_message
-    
+
+sys.path.append("D:/Project/RESUME_SCREENER/src/Resume_Screener/exception.py")
 
 # if __name__=='__main__':
 
